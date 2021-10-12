@@ -1,0 +1,154 @@
+.footer-box {
+  padding : 70px 0;
+}
+.footer {
+  background-color : #f8f8f8;
+  .footer-col-title {
+    margin : 0 0 40px 0;
+    font-size : 14px;
+    color : $grey;
+    text-transform : uppercase;
+    &.footer-logo {
+      margin : 0;
+      font-family : 'Montserrat Bold';
+      font-size : 46px;
+      color : #ccc;
+      text-transform : none;
+    }
+  }
+  .footer-description {
+    font-family : 'Roboto Regular';
+    font-size : 15px;
+    color : #999;
+    line-height : 24px;
+  }
+
+  .follow-us__container {
+    margin : 40px 0 32px 0;
+  }
+  .follow-us__followers {
+    font-size : 14px;
+    color : $grey;
+    padding : 0 0 20px 0;
+    border-bottom : 1px solid #e5e5e5;
+    span{
+      font-family : 'Montserrat Bold';
+      font-size : 15px;
+      color : $grey;
+    }
+  }
+  .foolow-us__box {
+    margin : 16px 0 34px 0;
+    display : flex;
+    justify-content : flex-start;
+    span {
+      margin : 0 20px 0 0;
+      font-family : 'Roboto Regular';
+      font-weight : 100;
+      font-style : italic;
+      color : #e5e5e5;
+    }
+  }
+  .follow-us__content {
+    a {
+      font-size : 16px;
+      padding : 0 9px;
+      color : #95e1d3;
+    }
+  }
+
+  .subscribe__container {
+    max-width : 380px;
+    form {
+      display : flex;
+    }
+    input {
+      flex : 0 0 calc(100% - 150px);
+      height : 40px;
+      padding-left : 13px;
+      border : 1px solid #e7e7e7;
+      &::-webkit-input-placeholder {color:#e9e9e9;}
+      &::-moz-placeholder          {color:#e9e9e9;}
+      &:-moz-placeholder           {color:#e9e9e9;}
+      &:-ms-input-placeholder      {color:#e9e9e9;}
+    }
+    button {
+      width : 150px;
+      height : 40px;
+      display : flex;
+      justify-content : center;
+      align-items : center;
+      font-family : 'Montserrat Bold';
+      font-size : 14px;
+      color : $header-color;
+      text-transform : uppercase;
+      background-color : #95e1d3;
+    }
+  }
+
+  .widget-post_box {
+    display : block;
+    margin : 0 0 30px 0;
+    &:last-child {
+      margin : 0;
+    }
+  }
+  .widget-post__content-box {
+    display : flex;
+    img {
+      width : 120px;
+    }
+    .widget-post__content {
+      display : flex;
+      flex-direction : column;
+      justify-content : center;
+      padding-left : 20px;
+    }
+    .widget-post__title {
+      font-size : 12px;
+      line-height : 18px;
+      color : $grey;
+      text-transform : uppercase;
+    }
+    .widget-post__date {
+      font-size : 13px;
+      font-family : 'Roboto Regular';
+      font-weight : 100;
+      font-style : italic;
+    }
+  }
+
+  #sb_instagram {
+    #sbi_load {
+      text-align : left;
+      .sbi_load_btn {
+        margin : 20px 0 0 0;
+        padding : 0;
+        background-color : transparent;
+        color : $light-grey;
+        font-family : 'Roboto Regular';
+        font-weight : 100;
+        font-style : italic;
+        font-size : 13px;
+      }
+    }
+  }
+
+  #sbi_images {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-columns: minmax(210px, 240px);
+    grid-gap: 2px 2px;
+  }
+
+  #sb_instagram.sbi_col_3 #sbi_images .sbi_item {
+    width: 100%;
+  }
+
+  .footer-title {
+    padding : 15px 0;
+    text-align : center;
+    border-top : 1px solid #e5e5e5;
+  }
+}
